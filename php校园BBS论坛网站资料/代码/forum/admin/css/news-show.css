@@ -1,0 +1,81 @@
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin:0px;
+	left:%50;
+	/*text-align:center;			                  /* 居中且宽度固定的版式 */
+	background-color:#fff;                     /*背景颜色*/
+}
+#area{
+	width:640px;
+	margin-left:5px;
+	margin-bottom:5px;
+	padding:0px;
+	border:1px solid #AAAAAA;
+}
+#delete-confirm{
+	height:50px;
+	margin-top:5px;
+	margin-bottom:5px;
+	padding:10px;
+	border-bottom:1px solid #FF0000;
+}
+#delete-confirm-left{
+	float:left;
+	margin-left:5px;
+}
+#delete-confirm-right{
+	float:right;
+	margin-right:5px;
+}
+#area-top{
+	height:30px;
+	margin:0px;
+	padding-top:8px;
+	padding-left:10px;
+	background:#efffff;
+	border-bottom:1px solid #AAAAAA;
+	/*background:url(../images/logo1.gif);*/
+}
+#area-main{
+	margin:0px;
+	padding:10px;
+	height:105px;
+}
+#line{
+	padding-left:0px;
+	padding-top:18px;
+	height:50px;
+	font-size:20px;
+	color:red;
+	border-top:1px solid #AAAAAA;
+	/*border-bottom:1px solid #AAAAAA;*/
+	background-color:#FFFFFF;
+}
+#line1{
+	padding-left:0px;
+	padding-top:0px;
+	height:30px;
+	color:#999999;
+	border-bottom:1px solid #AAAAAA;
+	background-color:#FFFFFF;
+}
+#line2{
+	padding-left:0px;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:10px;
+	padding-right:10px;
+	height:50px;
+	border-bottom:1px solid #AAAAAA;
+}
+.input1{
+	height:20px;
+	border:1px solid #AAAAAA;
+}
+.button{
+	height:20px;
+	border:1px solid #6600ff;
+	background:#fff;
+	padding-top:2px;
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/about-left.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/about.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/block-add-success.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/block-add.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/block-delete-confirm.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/block-delete.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/block-edit.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/block-list.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/block-show.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/center-left.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/center-right.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/center.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/down.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/index.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/login_check.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/news-add.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/news-delete-confirm.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/news-delete.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/news-edit.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/news-list.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/news-show.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/post-delete-confirm.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/post-delete.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/post-edit.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/post-list.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/post-show.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/reply-delete-confirm.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/reply-delete.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/reply-edit.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/reply-list.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/reply-show.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/top.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/user-add-success.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/user-add.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/user-delete-confirm.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/user-delete.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/user-edit.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/user-list.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/admin/user-show.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/block.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/chat-left.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/chat.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/conn.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/foot.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/friendlink.php" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

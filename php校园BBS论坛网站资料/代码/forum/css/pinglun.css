@@ -1,0 +1,296 @@
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin:0px;
+	padding:0px;
+	text-align:center;			                  /* 居中且宽度固定的版式 */
+	background-color:#fff;                     /*背景颜色*/
+}
+a:link, #globallink a:visited{
+	color:#000;
+	text-decoration:none;                           /*无链接下划线*/
+}
+a:hover{                                /*设置鼠标经过效果*/
+	color:#FF0000;
+	/*text-decoration:underline;                      /*当鼠标放在连接上时或点击过出现下划线*/
+}
+/*///////////////////////////////////////////////////////////////////////*/
+#container{
+	position:relative;
+	margin:0px;
+	width:900px;
+	text-align:left;                              /*对齐方式：left*/
+	background-color:#ffffff no-repeat top;
+	border-left:1px solid #AAAAAA;			      /*添加虚线框 */
+	border-right:1px solid #AAAAAA;              /*添加虚线框 */
+}
+#container1{
+	width:902px;
+	border-left:1px solid #bbbbbb;			      /*添加虚线框 */
+	border-right:1px solid #bbbbbb;              /*添加虚线框 */
+}
+#container2{
+	width:904px;
+	border-left:1px solid #cccccc;			      /*添加虚线框 */
+	border-right:1px solid #cccccc;              /*添加虚线框 */
+}
+#container3{
+	width:906px;
+	border-left:1px solid #dddddd;			      /*添加虚线框 */
+	border-right:1px solid #dddddd;              /*添加虚线框 */
+}
+#container4{
+	width:908px;
+	border-left:1px solid #eeeeee;			      /*添加虚线框 */
+	border-right:1px solid #eeeeee;              /*添加虚线框 */
+}
+#container5{
+	width:908px;
+	border-left:1px solid #ffffff;			      /*添加虚线框 */
+	border-right:1px solid #ffffff;              /*添加虚线框 */
+}
+#head{
+	width:900px;
+	margin-bottom:5px;
+	border-bottom:1px solid #AAAAAA;
+}
+#main{
+	width:900px;
+	float:left;
+	padding:0px;
+	margin:0px;
+}
+#main1{
+	width:880px;
+	padding:0px;
+	margin-top:5px;
+	margin-left:10px;
+}
+/*///////////////////////////////////////////////////////////////////////*/
+#fenye{
+	width:880px;
+	height:50px;
+	border:1px solid #AAAAAA;
+	margin-bottom:10px;
+	margin-top:0px;
+	padding:10px;
+}
+#fatie{
+	float:left;
+	width:100px;
+	height:30px;
+	border:1px solid #AAAAAA;
+	margin:0px;
+	padding-top:8px;
+	padding-left:15px;
+}
+#yema{
+	float:right;
+	height:30px;
+	padding-top:5px;
+}
+/*翻页CSS--------------------------------------------------------------------------------------------------------*/
+DIV.sabrosus {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; MARGIN: 3px; PADDING-TOP: 3px; TEXT-ALIGN: center
+}
+DIV.sabrosus A {
+	BORDER-RIGHT: #9aafe5 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #9aafe5 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #9aafe5 1px solid; COLOR: #2e6ab1; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #9aafe5 1px solid; TEXT-DECORATION: none
+}
+DIV.sabrosus A:hover {
+	BORDER-RIGHT: #2b66a5 1px solid; BORDER-TOP: #2b66a5 1px solid; BORDER-LEFT: #2b66a5 1px solid; COLOR: #000; BORDER-BOTTOM: #2b66a5 1px solid; BACKGROUND-COLOR: lightyellow
+}
+DIV.pagination A:active {
+	BORDER-RIGHT: #2b66a5 1px solid; BORDER-TOP: #2b66a5 1px solid; BORDER-LEFT: #2b66a5 1px solid; COLOR: #000; BORDER-BOTTOM: #2b66a5 1px solid; BACKGROUND-COLOR: lightyellow
+}
+DIV.sabrosus SPAN.current {
+	BORDER-RIGHT: navy 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: navy 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; BORDER-LEFT: navy 1px solid; COLOR: #fff; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: navy 1px solid; BACKGROUND-COLOR: #2e6ab1
+}
+DIV.sabrosus SPAN.disabled {
+	BORDER-RIGHT: #929292 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #929292 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #929292 1px solid; COLOR: #929292; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #929292 1px solid
+}
+/*---------------------------------------------------------------------------------------------------------------*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/
+#detail1{
+	width:880px;
+	height:70px;
+	float:left;
+	border:1px solid #AAAAAA;
+	margin-bottom:5px;
+	padding:0px;
+}
+#detail1-left{
+	width:177px;
+	margin:0px;
+	float:left;
+	padding:0px;
+}
+#detail1-left-top{
+	width:100%;
+	height:30px;
+	color:red;
+	text-align:center;
+	padding-top:10px;
+	border-bottom:1px solid #AAAAAA;
+}
+#detail1-left-mid{
+	width:100%;
+	height:120px;
+	padding-top:10px;
+	padding-left:40px;
+}
+#photo{
+	/*border:1px solid #aaaaaa;*/
+	width:100px;
+	height:100px;
+}
+#detail1-left-bot{
+	width:100%;
+	height:60px;
+	padding-top:6px;
+	padding-left:60px;
+}
+#detail1-right{
+	border-left:1px solid #AAAAAA;
+	width:698px;
+	margin:0px;
+	float:right
+	padding:0px;
+}
+#detail1-right-top{
+	width:100%;
+	height:50px;
+	font-size:20px;
+	color:#ff0000;
+	text-align:left;
+	padding-top:14px;
+	padding-left:10px;
+	border-bottom:1px dashed #AAAAAA;
+}
+#detail1-right-top1{
+	width:100%;
+	height:30px;
+	color:#000066;
+	padding-top:8px;
+	padding-left:10px;
+	border-bottom:1px dashed #AAAAAA;
+}
+#detail1-right-top1-left{
+	float:left;
+}
+#detail1-right-top1-right{
+	float:right;
+	margin-right:10px;
+}
+#detail1-right-bot{
+	margin:0px;
+	padding:10px;
+}
+/*///////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////*/
+#detail2{
+	width:880px;
+	float:left;
+	border:1px solid #AAAAAA;
+	margin-bottom:5px;
+	padding:0px;
+}
+#detail2-left{
+	width:180px;
+	margin:0px;
+	float:left;
+	padding:0px;
+	border-right:1px solid #AAAAAA;
+}
+#detail2-left-top{
+	width:100%;
+	height:30px;
+	color:red;
+	text-align:center;
+	padding-top:10px;
+	border-bottom:1px solid #AAAAAA;
+}
+#detail2-left-mid{
+	width:100%;
+	height:120px;
+	padding-top:10px;
+	padding-left:40px;
+}
+#detail2-left-bot{
+	width:100%;
+	height:60px;
+	padding-top:6px;
+	padding-left:60px;
+}
+#detail2-right{
+	width:695px;
+	margin:0px;
+	float:right
+	padding:0px;
+}
+#detail2-right-top{
+	width:100%;
+	height:30px;
+	color:#000066;
+	text-align:right;
+	padding-top:8px;
+	padding-right:10px;
+	border-bottom:1px dashed #AAAAAA;
+}
+#detail2-right-bot{
+	padding:10px;
+}
+/*///////////////////////////////////////////////////////////////////////*/
+#detail3{
+	width:880px;
+	height:260px;
+	float:left;
+	border:1px solid #AAAAAA;
+	margin-bottom:5px;
+	padding:0px;
+}
+#detail3-left{
+	width:180px;
+	height:276px;
+	margin:0px;
+	padding:0px;
+	float:left;
+	border-right:1px solid #AAAAAA;
+}
+#detail3-left-top{
+	width:100%;
+	height:30px;
+	color:red;
+	text-align:center;
+	padding-top:10px;
+	border-bottom:1px solid #AAAAAA;
+}
+#detail3-left-mid{
+	width:100%;
+	height:120px;
+	padding-top:10px;
+	padding-left:40px;
+}
+#detail3-left-bot{
+	width:100%;
+	height:60px;
+	padding-top:6px;
+	padding-left:60px;
+}
+#detail3-right{
+	width:695px;
+	height:260px;
+	float:right;
+	padding:7px;
+}
+.input1{
+	border:1px solid #AAAAAA;
+	background:#fff;
+	padding-top:3px;
+	font-size:12px;
+}
+#foot{
+	margin-top:5px;
+	padding:0px;
+	width:900px;
+	float:left;
+}

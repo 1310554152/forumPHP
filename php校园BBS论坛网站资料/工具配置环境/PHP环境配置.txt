@@ -1,0 +1,123 @@
+*****************************************************************
+*								*
+*	第1步：准备工作--安装运行环境 VC11或与PHP匹配版本	*
+*								*
+*****************************************************************
+
+1、下载地址:https://www.microsoft.com/zh-CN/download/details.aspx?id=30679
+
+2、注意点:32位或64位
+
+
+
+*****************************************************************
+*								*
+*	第2步：安装并配置Apache服务器				*
+*								*
+*****************************************************************
+
+1、下载地址:https://www.apachelounge.com/download/VC11/
+
+2、解压文件
+
+3、配置apache
+
+	-1- 配置文件:apache安装目录conf->httpd.conf
+
+	-2- 配置项
+		
+		ServerRoot 	"解压目录"
+		Listen 		端口(默认80)
+		DocumentRoot 	"网站根目录"
+		Directory	同上	
+
+4、注册服务
+	
+	-1- 	进入apache安装目录下的bin,按shift键，右键单击选择"在此处打开命令窗口"
+
+	-2- 	注册服务 httpd -k install -n "服务名称"
+
+	-3- 	查看服务启动状态：管理工具->服务->"服务名称"
+
+5、启动或停止服务
+	方法1 管理工具->服务->"服务名称"
+	方法2 命令提示符:net start|stop 服务名称
+	方法3 apache自带服务工具:ApacheMonite
+
+	注意点：每次修改配置文件，需要重新启动apache服务器
+
+
+*****************************************************************
+*								*
+*	第3步：安装并配置PHP运行环境				*
+*								*
+*****************************************************************
+
+1、下载PHP:http://windows.php.net/download#php-5.6
+	注：
+		-1- 版本一：最新7.0，下载5.6
+
+		-2- 版本二：Thread safe(Apache)和Non-Thread Safe(IIS)
+
+2、解压
+	注：最好与apache在同一目录下，方便管理
+
+3、基本配置
+	-1- 修改配置文件名:php.ini-development或php.ini-production改成php.ini
+	-2- 修改常用配置项
+		设置扩展组件目录：extension_dir为PHP安装目录Ext文件夹
+		启动	extension=php_mysql.dll
+			extension=php_mysqli.dll
+			extension=php_pdo_mysql.dll
+
+
+*****************************************************************
+*								*
+*	第4步：PHP与Apache整合					*
+*								*
+*****************************************************************
+
+1、打开Apache的配置文件httpd.conf
+
+
+2、加载PHP模块
+	LoadModule php5_module " php5apache2_4.dll绝对路径"
+
+3、设置PHP初始化目录
+
+	PHPIniDir PHP解压目录
+
+4、添加MIME类型
+	AddType  application/x-httpd-php .php
+
+5、重启服务
+
+
+
+*****************************************************************
+*								*
+*	第5步：测试配置结果					*
+*								*
+*****************************************************************
+
+1、在apache的网站目录下创建扩展名为php的文件
+
+2、编写以下代码
+	<?php
+		phpinfo();
+
+	
+LoadModule php5_module "E:/PHP/php/php5apache2_4.dll"
+PHPIniDir "E:/PHP/php"
+
+
+ #PHP Config Start
+
+    AddType  application/x-httpd-php .php
+
+#PHP Config End
+
+	
+
+
+

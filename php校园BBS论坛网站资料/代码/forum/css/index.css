@@ -1,0 +1,75 @@
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin:0px;
+	padding:0px;
+	text-align:center;			                  /* 居中且宽度固定的版式 */
+	background-color:#fff;                     /*背景颜色*/
+}
+a:link, #globallink a:visited{
+	color:#000;
+	text-decoration:none;                           /*无链接下划线*/
+}
+a:hover{                                /*设置鼠标经过效果*/
+	color:#FF0000;
+	/*text-decoration:underline;                      /*当鼠标放在连接上时或点击过出现下划线*/
+}
+#container{
+	position:relative;
+	margin:0px;
+	width:900px;
+	text-align:left;                              /*对齐方式：left*/
+	background-color:#ffffff no-repeat top;
+	border-left:1px solid #aaaaaa;			      /*添加虚线框 */
+	border-right:1px solid #aaaaaa;              /*添加虚线框 */
+}
+#container1{
+	width:902px;
+	border-left:1px solid #bbbbbb;			      /*添加虚线框 */
+	border-right:1px solid #bbbbbb;              /*添加虚线框 */
+}
+#container2{
+	width:904px;
+	border-left:1px solid #cccccc;			      /*添加虚线框 */
+	border-right:1px solid #cccccc;              /*添加虚线框 */
+}
+#container3{
+	width:906px;
+	border-left:1px solid #dddddd;			      /*添加虚线框 */
+	border-right:1px solid #dddddd;              /*添加虚线框 */
+}
+#container4{
+	width:908px;
+	border-left:1px solid #eeeeee;			      /*添加虚线框 */
+	border-right:1px solid #eeeeee;              /*添加虚线框 */
+}
+#container5{
+	width:908px;
+	border-left:1px solid #ffffff;			      /*添加虚线框 */
+	border-right:1px solid #ffffff;              /*添加虚线框 */
+}
+#head{
+	width:900px;
+	margin-bottom:5px;
+	border-bottom:1px solid #AAAAAA;
+}
+#main{
+	width:900px;
+	float:left;
+	padding:0px;
+	margin:0px;
+}
+#left{
+	width:645px;
+	float:left;
+}
+#right{
+	width:250px;
+	float:right;
+}
+#foot{
+	margin-top:5px;
+	padding:0px;
+	width:900px;
+	float:left;
+}

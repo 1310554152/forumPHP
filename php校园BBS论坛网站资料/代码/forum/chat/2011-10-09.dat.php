@@ -1,0 +1,6 @@
+<?php die();?>
+1318122117|<span style='color:#16a5e9;'>Wellcome to the XJUFE forum chatroom !(produced by gaopeng)</span>
+1318122186|李欣洋:本站公测中...
+1318122186|李欣洋:本站公测中...
+1318122186|李欣洋:希望各位朋友帮忙找出BUG和不足的地方！
+1318122186|李欣洋:谢谢！

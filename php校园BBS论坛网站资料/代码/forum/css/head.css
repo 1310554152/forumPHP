@@ -1,0 +1,137 @@
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin:0px;
+	padding:0px;
+	/*text-align:center;			                  /* 居中且宽度固定的版式 */
+	background-color:#fff;                     /*背景颜色*/
+}
+#top{
+	width:900px;
+	height:25px;
+	padding-left:0px;
+}
+#top1{
+	float:left;
+	height:25px;
+	padding-left:5px;
+	padding-top:5px;
+}
+#top2{
+	float:right;
+	height:25px;
+	padding-right:5px;
+	padding-top:4px;
+}
+.form-head{
+	height:0px;
+	float:right;
+}
+.input{
+	height:17px;
+	border:1px solid #AAAAAA;
+}
+.button0{
+	height:17px;
+	border:1px solid #6600ff;
+	background:#fff;
+	padding-top:1px;
+	font-size:12px;
+}
+#top2 input:hover{                                /*设置鼠标经过效果*/
+	border:1px solid #FF0000;
+}
+#banner{
+	width:900px;
+	height:209px;
+	margin:0px;
+	padding:0px;
+	background:url(../images/timg.jpg) no-repeat top;
+	/*background:url(../images/banner.gif) no-repeat top;*/
+	/*border-top:1px solid #AAAAAA;*/
+	/*border-bottom:1px solid #AAAAAA;*/
+}
+#globallink{
+	width:900px;
+	border-bottom:1px solid #000000;
+	background: #0b2b61;
+}
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+#blob {
+    background: #0b2b61;
+    border: 1px solid #0059ec;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    background: -moz-linear-gradient(top, #0b2b61, #1153c0);
+    background: -webkit-gradient(linear, left top, left bottom, from(#0b2b61), to(#1153c0));
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-box-shadow: 2px 3px 10px #011331;
+    -webkit-box-shadow: 2px 3px 10px #011331;
+}
+
+#nav {
+	width:900px;
+    position: relative;
+    background: #666666;
+    float: left;
+}
+
+#nav li {
+    float: left;
+	width:70px;
+    list-style: none;
+    border-right: 1px solid #4a4a4a;
+    border-left: 1px solid black;
+}
+
+#nav li a {
+    color: #ff0000;
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+    float: left;
+    font-size: 12px;
+    font-family: helvetica, arial, sans-serif;
+    text-decoration: none;
+    padding:10px;
+    width: 100%;
+
+}
+#nav a:link, #nav a:visited{
+	color:#ffffff;
+	text-decoration:none;                           /*无链接下划线*/
+}
+#nav a:hover{                                /*设置鼠标经过效果*/
+	color:#FF0000;
+	text-decoration:none;                           /*无链接下划线*/
+	/*text-decoration:underline;                      /*当鼠标放在连接上时或点击过出现下划线*/
+}
+#position{
+	width:900px;
+	height:25px;
+	padding-left:0px;
+	background:ffffff;
+}
+#position1{
+	float:left;
+	height:25px;
+	padding-left:10px;
+	padding-top:7px;
+}
+#position2{
+	float:right;
+	height:25px;
+	padding-right:10px;
+	padding-top:3px;
+}
+/*去除a链的虚线框 兼容IE FF*/
+a{
+outline:none;                                /*移除超链的虚线框  IE8,FF有用*/ 
+hide-focus: expression(this.hideFocus=true); /*IE6、IE7*/ 
+} 

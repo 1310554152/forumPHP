@@ -1,0 +1,98 @@
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin:0px;
+	padding:0px;
+	/*text-align:center;			                  /* ¾ÓÖÐÇÒ¿í¶È¹Ì¶¨µÄ°æÊ½ */
+	background-color:#fff;                     /*±³¾°ÑÕÉ«*/
+}
+#area{
+	width:640px;
+	margin-left:5px;
+	margin-bottom:5px;
+	padding:0px;
+	border:1px solid #AAAAAA;
+}
+#area-top{
+	height:30px;
+	margin:0px;
+	padding-top:8px;
+	padding-left:10px;
+	background:#efffff;
+	border-bottom:1px solid #AAAAAA;
+	/*background:url(../images/logo1.gif);*/
+}
+#area-main{
+	margin:0px;
+	padding:10px;
+	height:105px;
+}
+#line{
+	padding-left:0px;
+	padding-top:18px;
+	height:50px;
+	border-top:1px solid #AAAAAA;
+	border-bottom:1px solid #AAAAAA;
+	background-color:#FFFFCC;
+}
+#line-left{
+	float:left;
+	width:430px;
+	padding-left:0px;
+	margin-right:5px;
+}
+#line-center{
+	float:left;
+	width:50px;
+	padding-left:0px;
+	margin-right:13px;
+}
+#line-right{
+	float:left;
+	width:120px;
+	padding-left:0px;
+}
+#line1{
+	padding-left:0px;
+	padding-top:18px;
+	height:50px;
+	border-bottom:1px dashed #AAAAAA;
+}
+#line2{
+	float:left;
+	width:100%;
+	padding-left:0px;
+	padding-top:22px;
+	height:65px;
+	border-bottom:1px solid #AAAAAA;
+}
+/*·­Ò³CSS--------------------------------------------------------------------------------------------------------*/
+DIV.sabrosus {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; MARGIN: 3px; PADDING-TOP: 3px; /*TEXT-ALIGN: center*/
+}
+DIV.sabrosus A {
+	BORDER-RIGHT: #9aafe5 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #9aafe5 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #9aafe5 1px solid; COLOR: #2e6ab1; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #9aafe5 1px solid; TEXT-DECORATION: none
+}
+DIV.sabrosus A:hover {
+	BORDER-RIGHT: #2b66a5 1px solid; BORDER-TOP: #2b66a5 1px solid; BORDER-LEFT: #2b66a5 1px solid; COLOR: #000; BORDER-BOTTOM: #2b66a5 1px solid; BACKGROUND-COLOR: lightyellow
+}
+DIV.pagination A:active {
+	BORDER-RIGHT: #2b66a5 1px solid; BORDER-TOP: #2b66a5 1px solid; BORDER-LEFT: #2b66a5 1px solid; COLOR: #000; BORDER-BOTTOM: #2b66a5 1px solid; BACKGROUND-COLOR: lightyellow
+}
+DIV.sabrosus SPAN.current {
+	BORDER-RIGHT: navy 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: navy 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; BORDER-LEFT: navy 1px solid; COLOR: #fff; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: navy 1px solid; BACKGROUND-COLOR: #2e6ab1
+}
+DIV.sabrosus SPAN.disabled {
+	BORDER-RIGHT: #929292 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #929292 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #929292 1px solid; COLOR: #929292; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #929292 1px solid
+}
+/*---------------------------------------------------------------------------------------------------------------*/
+.input1{
+	height:20px;
+	border:1px solid #AAAAAA;
+}
+.button{
+	height:20px;
+	border:1px solid #6600ff;
+	background:#fff;
+	padding-top:2px;
+}
